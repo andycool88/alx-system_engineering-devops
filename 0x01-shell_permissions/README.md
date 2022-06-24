@@ -1,4 +1,4 @@
-   DESCRIPTION OF WHAT EACH SCRIPT IN ALL THE TASK HERE IS DOING
+                                                  DESCRIPTION OF WHAT EACH SCRIPT DOES
 
 TASK 0-My name is Betty--- creates a script that changes your user ID to betty.
 
