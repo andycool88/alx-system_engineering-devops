@@ -1,2 +1,2 @@
 #!/bin/bash
--R a+x */
+-r a+x*/
