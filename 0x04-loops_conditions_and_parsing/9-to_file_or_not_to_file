@@ -1,23 +1,23 @@
 #!/usr/bin/env bash
-# This script gives you information about the Best file
+# This script gives you information about Bestschool file
 
-bs="Bestschool"
+hbs="Bestschool"
 
-if [ -e $bs ]
-then
-    echo "$bs file exists"
+if [ -e $hbs ]
+theni
+    echo "$hbs file exists"
 
-    if [ -s $bs ]
+    if [ -s $hbs ]
     then
-	echo "$bs file is not empty"
+	echo "$hbs file is not empty"
     else
-	echo "$bs file is empty"
+	echo "$hbs file is empty"
     fi
 
-    if [ -f $bs ]
+    if [ -f $hbs ]
     then
-	echo "$bs is a regular file"
+	echo "$hbs is a regular file"
     fi
 else
-    echo "$bs file does not exist"
+    echo "$hbs file does not exist"
 fi
