@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# This script gives you information about the Best file
+
+bs="Bestschool"
+
+if [ -e $bs ]
+then
+    echo "$bs file exists"
+
+    if [ -s $bs ]
+    then
+	echo "$bs file is not empty"
+    else
+	echo "$bs file is empty"
+    fi
+
+    if [ -f $bs ]
+    then
+	echo "$bs is a regular file"
+    fi
+else
+    echo "$bs file does not exist"
+fi
