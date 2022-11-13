@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Using for loop to print a string
-for i in $(seq 1 10); do
-	echo "Best School"
-	i="$((i))"
-done;
+# This script is displaying "Best School" 10 times using the for loop
+
+for _ in {1..10}
+do
+    echo "Best School"
+done
